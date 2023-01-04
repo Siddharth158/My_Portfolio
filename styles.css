@@ -1,0 +1,82 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body{
+    background-color: #252324;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+/* ------------NAV BAR------------- */
+
+.header{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    background-color:#000000 ;
+}
+.logoimg{
+    width: 100%;
+}
+.logoimg:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+.logo{
+    /* display: inline; */
+    width: 7%;
+    padding: 0.5% 0;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    width: 55%;
+}
+.navul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+.navli{
+    margin: 0 2%;
+    list-style: none; 
+    padding: 1.5% 1%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* border-radius: 20%; */
+    transform: skewX(25deg);
+    transition: .3s;
+}
+.navul a{
+    display: flex;
+    align-items: center;
+    height:130%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+    font-weight: bolder;
+    transform: skewX(-25deg);
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.navli a:hover{
+    color: black;
+    /* border-bottom:2px solid white ; */
+}
+.navli:hover{
+    /* transform: scale(1.2); */
+    box-shadow: 4px 4px 5px rgb(101, 100, 100);
+    background-color: #ed7186;
+}
+
+
+
