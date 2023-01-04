@@ -80,3 +80,85 @@ body{
 
 
 
+
+
+/* ------------top body------------- */
+
+.top-body{
+    background-color: rgb(213, 108, 108);
+    display: flex;
+    width: 60%;
+    align-items: center;
+    padding: 3% 0;
+    margin: 2% 0 0 13%;
+    border-radius: 2%;
+}
+.top-text{
+    width: 60%;
+    /* margin-right: 20%; */
+    text-align: center;
+    position: relative;
+}
+.big{
+    margin: 0;
+    font-size: 25vw;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    margin-left: 5%;
+}
+.intro{
+    margin: 0;
+    color: white;
+    background-color: black;
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    font-size: 3vw;
+    font-family: 'Rubik Vinyl', cursive;
+    border-radius: 15px;
+}
+.about{
+    background-color: white;
+    color: rgb(109, 108, 108);
+    width: 60%;
+    margin: auto;
+    font-size: 1.3vw;
+    position: relative;
+    bottom: 2vh;
+    border-radius: 8px;
+    padding: 1% 0;
+    font-family: 'Montserrat', sans-serif;
+}
+hr{
+    width: 50%;
+    height: 1.5px;
+    border: 1px solid white;
+    position: relative;
+    bottom: 4vh;
+}
+.pen{
+    position: absolute;
+    width: 50%;
+    left: 80%;
+    bottom: 0%;
+    transform: rotate(15deg);
+    opacity: 0.8;
+}
+.pen img{
+    width: 100%;
+}
+.myimg{
+    position: relative;
+    left: 40%;
+    width: 100%;
+    display: block;
+}
+.top-image{
+    width: 60%;
+}
+
+
+
