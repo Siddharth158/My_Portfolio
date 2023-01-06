@@ -132,7 +132,7 @@ body{
     padding: 1% 0;
     font-family: 'Montserrat', sans-serif;
 }
-hr{
+.top-body hr{
     width: 50%;
     height: 1.5px;
     border: 1px solid white;
