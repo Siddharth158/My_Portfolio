@@ -180,6 +180,7 @@ body{
     color: rgb(175, 171, 171);
     font-size: 3vw;
     text-decoration: underline;
+    font-family: 'Rowdies', cursive;
     margin-bottom: 8vw;
 }
 .skills-card{
@@ -201,6 +202,7 @@ body{
 }
 .inner-card h1{
     color: white;
+    text-decoration: underline;
     text-align: center;
     width: 17vw;
     position: absolute;
