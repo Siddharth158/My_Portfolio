@@ -159,6 +159,105 @@ body{
 .top-image{
     width: 60%;
 }
+.general{
+    border: none;
+    border-top: 5px solid white;
+    /* width: 80%; */
+    margin: 5% auto;
+}
 
 
 
+
+/* ------------------skills section----------------- */
+.skills{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 1% 0 1% 27%;
+}
+.skills-head{
+    color: rgb(175, 171, 171);
+    font-size: 3vw;
+    text-decoration: underline;
+    margin-bottom: 8vw;
+}
+.skills-card{
+    width: 22vw;
+    height: 22vw;
+    background-color: black;
+    border: 0.5vw solid white;
+    border-radius: 20px;
+    margin: 8vw 0;
+    transition: 0.5s;
+}
+.skills-card:hover{
+    transform: scale(1.1);
+}
+.inner-card{
+    width: 50%;
+    margin: auto;
+    position: relative;
+}
+.inner-card h1{
+    color: white;
+    text-align: center;
+    width: 17vw;
+    position: absolute;
+    top: 7vw;
+    font-size: 2.5vw;
+    font-family: 'Abril Fatface', cursive;
+    left: -3vw;
+}
+.inner-card p{
+    color: rgb(164, 162, 162);
+    text-align: center;
+    position: absolute;
+    top: 12vw;
+    left: -2vw;
+    font-size: 2vw;
+    width: 15vw;
+}
+.card-img{
+    width: 100%;
+    position: absolute;
+    top: -6vw;
+}
+.c-lang p{
+    width: 17vw;
+    left: -3vw;
+}
+.skills-btn{
+    border-radius: 2vw;
+    display: block;
+    font-size: 2vw;
+    width: 10vw;
+    margin: auto;
+    border: 3px solid white;
+    color: grey;
+    background-color: black;
+    padding: 5% 2%;
+    transition: 0.2s;
+}
+.skills-btn:hover{
+    background-color: rgb(29, 29, 29);
+}
+.row2{
+    position: relative;
+}
+.btn-div{
+    position: absolute;
+    bottom: 8vw;
+    left: 11vw;
+}
+.bulb-div{
+    position: absolute;
+    bottom: 32vw;
+    left: -53vw;
+    width: 80%;
+    opacity: 0.8;
+    transform: rotate(10deg);
+}
+.bulb{
+    width: 100%;
+}
