@@ -262,4 +262,13 @@ body{
 }
 .bulb{
     width: 100%;
+    transition: 2s;
+}
+.bulb-toggle1{
+    /* display: none; */
+    transform: scale(1.2);
+}
+.bulb-toggle2{
+    /* transform: 1s; */
+    transform: scale(1);
 }
