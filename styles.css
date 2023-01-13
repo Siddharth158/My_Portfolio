@@ -1,9 +1,12 @@
 * {
     font-family: 'Josefin Sans', sans-serif;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 
 body {
+    /* position: relative; */
     background-color: #252324;
     box-sizing: border-box;
     margin: 0;
@@ -18,6 +21,9 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #000000;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .logoimg {
