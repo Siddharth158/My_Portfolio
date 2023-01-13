@@ -3,7 +3,7 @@
 }
 
 
-body{
+body {
     background-color: #252324;
     box-sizing: border-box;
     margin: 0;
@@ -13,30 +13,34 @@ body{
 
 /* ------------NAV BAR------------- */
 
-.header{
+.header {
     margin-top: 1%;
     display: flex;
     justify-content: space-between;
-    background-color:#000000 ;
+    background-color: #000000;
 }
-.logoimg{
+
+.logoimg {
     width: 100%;
 }
-.logoimg:hover{
+
+.logoimg:hover {
     transform: scale(1.5);
     transition: 0.5s;
 }
-.logo{
-    /* display: inline; */
+
+.logo {
     width: 7%;
     padding: 0.5% 0;
 }
-.nav{
+
+.nav {
     display: flex;
     align-items: center;
     width: 55%;
 }
-.navul{
+
+.navul {
     width: 100%;
     display: flex;
     align-items: center;
@@ -44,21 +48,22 @@ body{
     margin: 0;
     height: 100%;
 }
-.navli{
+
+.navli {
     margin: 0 2%;
-    list-style: none; 
+    list-style: none;
     padding: 1.5% 1%;
     height: 100%;
     display: flex;
     align-items: center;
-    /* border-radius: 20%; */
     transform: skewX(25deg);
     transition: .3s;
 }
-.navul a{
+
+.navul a {
     display: flex;
     align-items: center;
-    height:130%;
+    height: 130%;
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 1.5vw;
@@ -68,12 +73,11 @@ body{
     transition: 0.5s;
 }
 
-.navli a:hover{
+.navli a:hover {
     color: black;
-    /* border-bottom:2px solid white ; */
 }
-.navli:hover{
-    /* transform: scale(1.2); */
+
+.navli:hover {
     box-shadow: 4px 4px 5px rgb(101, 100, 100);
     background-color: #ed7186;
 }
@@ -84,7 +88,7 @@ body{
 
 /* ------------top body------------- */
 
-.top-body{
+.top-body {
     background-color: rgb(213, 108, 108);
     display: flex;
     width: 60%;
@@ -93,47 +97,14 @@ body{
     margin: 2% 0 0 15%;
     border-radius: 2%;
 }
-.top-text{
+
+.top-text {
     width: 60%;
-    /* margin-right: 20%; */
     text-align: center;
     position: relative;
 }
-/* .big{
-    margin: 0;
-    font-size: 25vw;
-    color: white;
-    font-family: 'Secular One', sans-serif;
-    margin-left: 5%;
-}
-.intro{
-    margin: 0;
-    color: white;
-    background-color: black;
-    width: 80%;
-    margin: auto;
-    padding: 2%;
-    position: absolute;
-    bottom: 15%;
-    left: 10%;
-    font-size: 3vw;
-    font-family: 'Rubik Vinyl', cursive;
-    border-radius: 15px;
-}
-.about{
-    background-color: white;
-    color: rgb(109, 108, 108);
-    width: 60%;
-    margin: auto;
-    font-size: 1.3vw;
-    position: relative;
-    bottom: 2vh;
-    border-radius: 8px;
-    padding: 1% 0;
-    font-family: 'Montserrat', sans-serif;
-} */
 
-.box1{
+.box1 {
     background-color: black;
     border: 0.5vw solid white;
     border-top-right-radius: 8vw;
@@ -141,31 +112,35 @@ body{
     transform: skewX(30deg);
     position: relative;
     right: 9vw;
+    bottom: 2vw;
     padding: 1vw;
     width: 42vw;
 }
-.big{
+
+.big {
     text-align: left;
-    /* color: grey; */
     margin: 0;
     margin-left: 2vw;
-    font-family:  'Rubik Vinyl', cursive;
+    font-family: 'Rubik Vinyl', cursive;
     font-size: 3.5vw;
     transform: skewX(-30deg);
 }
-.intro{
+
+.intro {
     transform: skewX(-30deg);
-    font-family: 'Secular One', sans-serif ;
+    font-family: 'Secular One', sans-serif;
     margin: 1vw 0;
     font-size: 4.5vw;
     text-align: right;
     margin-right: 1vw;
 }
-.intro span{
+
+.intro span {
     text-decoration: underline;
-    font-family: 'Secular One', sans-serif ;
+    font-family: 'Secular One', sans-serif;
 }
-.about{
+
+.about {
     transform: skewX(-30deg);
     color: rgb(178, 175, 175);
     text-align: right;
@@ -174,17 +149,20 @@ body{
     margin-right: 4vw;
 
 }
-.box2{
+
+.box2 {
     border: 0.5vw solid white;
     border-top: none;
     background-color: rgb(47, 47, 47);
     transform: skewX(30deg);
     border-bottom-left-radius: 4vw;
+    position: relative;
+    bottom: 2vw;
 }
-.like{
+
+.like {
     line-height: 2.5vw;
     text-decoration: underline;
-    /* text-align: left; */
     padding: 0.5vw;
     transform: skewX(-30deg);
     margin: 0;
@@ -192,47 +170,50 @@ body{
     font-size: 1.7vw;
 }
 
-.material-symbols-outlined {
-    vertical-align: middle;
-  font-variation-settings:
-  'FILL' 1,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
+.pen {
+    position: absolute;
+    width: 30%;
+    left: 72%;
+    top: 0vw;
+    transform: skewX(-30deg);
 }
 
-.top-body hr{
+.pen img {
+    width: 100%;
+}
+
+.material-symbols-outlined {
+    vertical-align: middle;
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.top-body hr {
     width: 50%;
     height: 1.5px;
     border: 1px solid white;
     position: relative;
     bottom: 4vh;
 }
-/* .pen{
-    position: absolute;
-    width: 50%;
-    left: 80%;
-    bottom: 0%;
-    transform: rotate(15deg);
-    opacity: 0.8;
-}
-.pen img{
-    width: 100%;
-} */
-.myimg{
+
+.myimg {
     position: relative;
     left: 40%;
     width: 100%;
     display: block;
     border-radius: 1vw;
 }
-.top-image{
+
+.top-image {
     width: 60%;
 }
-.general{
+
+.general {
     border: none;
     border-top: 5px solid white;
-    /* width: 80%; */
     margin: 5% auto;
 }
 
@@ -240,20 +221,22 @@ body{
 
 
 /* ------------------skills section----------------- */
-.skills{
+.skills {
     display: flex;
     justify-content: space-around;
     width: 60%;
     margin: 1% 0 1% 27%;
 }
-.skills-head{
+
+.skills-head {
     color: rgb(175, 171, 171);
     font-size: 3vw;
     text-decoration: underline;
     font-family: 'Rowdies', cursive;
     margin-bottom: 8vw;
 }
-.skills-card{
+
+.skills-card {
     width: 22vw;
     height: 22vw;
     background-color: #000000;
@@ -262,15 +245,18 @@ body{
     margin: 8vw 0;
     transition: 0.5s;
 }
-.skills-card:hover{
+
+.skills-card:hover {
     transform: scale(1.1);
 }
-.inner-card{
+
+.inner-card {
     width: 50%;
     margin: auto;
     position: relative;
 }
-.inner-card h1{
+
+.inner-card h1 {
     color: white;
     text-decoration: underline;
     text-align: center;
@@ -281,7 +267,8 @@ body{
     font-family: 'Abril Fatface', cursive;
     left: -3vw;
 }
-.inner-card p{
+
+.inner-card p {
     color: rgb(164, 162, 162);
     text-align: center;
     position: absolute;
@@ -290,16 +277,19 @@ body{
     font-size: 2vw;
     width: 15vw;
 }
-.card-img{
+
+.card-img {
     width: 100%;
     position: absolute;
     top: -6vw;
 }
-.c-lang p{
+
+.c-lang p {
     width: 17vw;
     left: -3vw;
 }
-.skills-btn{
+
+.skills-btn {
     border-radius: 1vw;
     display: block;
     font-size: 2vw;
@@ -311,23 +301,27 @@ body{
     padding: 5% 2%;
     transition: 0.2s;
 }
-.skills-btn:hover{
+
+.skills-btn:hover {
     background-color: rgb(29, 29, 29);
 }
-.arrow{
-    /* vertical-align: middle; */
+
+.arrow {
     margin: 0;
     display: inline-block;
 }
-.row2{
+
+.row2 {
     position: relative;
 }
-.btn-div{
+
+.btn-div {
     position: absolute;
     bottom: 8vw;
     left: 11vw;
 }
-.bulb-div{
+
+.bulb-div {
     position: absolute;
     bottom: 32vw;
     left: -53vw;
@@ -335,15 +329,106 @@ body{
     opacity: 0.8;
     transform: rotate(10deg);
 }
-.bulb{
+
+.bulb {
     width: 100%;
     transition: 2s;
 }
-.bulb-toggle1{
-    /* display: none; */
+
+.bulb-toggle1 {
     transform: scale(1.2);
 }
-.bulb-toggle2{
-    /* transform: 1s; */
+
+.bulb-toggle2 {
     transform: scale(1);
 }
+
+
+
+/* ---------projects section------------ */
+.project-section {
+    text-align: center;
+    position: relative;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+.section-title{
+    /* display: inline; */
+    color: rgb(146, 145, 145);
+    width: 60%;
+    margin:2vw auto;
+    font-size: 3vw;
+}
+.projects{
+    margin-left:2vw;
+    width: 80%;
+    background-color: black;
+    padding: 1vw 0;
+    border-radius: 2vw;
+    border: 0.5vw solid white;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.project1 {
+    width: 69%;
+    height: 30vw;
+}
+.letters{
+    font-family: 'Rowdies', cursive;
+    display: inline-block;
+    
+  }
+.tilt-left{
+    transition: 0.5s;
+    transform: rotate(10deg);
+}
+.tilt-right{
+    transition: 0.5s;
+    transform: rotate(-10deg);
+  }
+  .scale{
+    color: white !important;
+    transition: 0.5s;
+    transform: scale(1.2);
+  }
+  .about-project p{
+    font-size: 1.1vw;
+    line-height: 2vw;
+    text-align: right;
+  }
+  .about-project h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2.5vw;
+    text-align: left;
+    margin:2vw 0 3vw;
+  }
+  .visit-button{
+    font-size: 2vw;
+    background-color: rgb(150, 148, 148);
+    padding: 0.5vw;
+    width: 70%;
+    border-radius: 1vw;
+    margin: 2vw 0;
+  }
+  .visit-button:hover{
+    background-color: rgb(101, 101, 101);
+  }
+  .git-icon a{
+    font-size: 3vw;
+    text-decoration: none;
+    color: white;
+  }
+  .project-img{
+    width: 13vw;
+    position: absolute;
+    top: -8%;
+    right: 3.5%;
+    transform: rotate(30deg);
+    opacity: 0.5;
+  }
+  .project-img img{
+    width: 100%;
+  }
