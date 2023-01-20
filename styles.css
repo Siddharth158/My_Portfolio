@@ -4,12 +4,17 @@
 html{
     scroll-behavior: smooth;
 }
-
 body {
     /* position: relative; */
     background-color: #252324;
     box-sizing: border-box;
     margin: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
 }
 
 
@@ -25,27 +30,19 @@ body {
     top: 0;
     z-index: 1;
 }
-
-.logoimg {
-    width: 100%;
-}
-
 .logoimg:hover {
     transform: scale(1.5);
     transition: 0.5s;
 }
-
 .logo {
     width: 7%;
     padding: 0.5% 0;
 }
-
 .nav {
     display: flex;
     align-items: center;
-    width: 55%;
+    width: 50%;
 }
-
 .navul {
     width: 100%;
     display: flex;
@@ -54,7 +51,6 @@ body {
     margin: 0;
     height: 100%;
 }
-
 .navli {
     margin: 0 2%;
     list-style: none;
@@ -65,7 +61,6 @@ body {
     transform: skewX(25deg);
     transition: .3s;
 }
-
 .navul a {
     display: flex;
     align-items: center;
@@ -78,11 +73,9 @@ body {
     text-decoration: underline;
     transition: 0.5s;
 }
-
 .navli a:hover {
     color: black;
 }
-
 .navli:hover {
     box-shadow: 4px 4px 5px rgb(101, 100, 100);
     background-color: #ed7186;
@@ -103,13 +96,11 @@ body {
     margin: 2% 0 0 15%;
     border-radius: 2%;
 }
-
 .top-text {
     width: 60%;
     text-align: center;
     position: relative;
 }
-
 .box1 {
     background-color: black;
     border: 0.5vw solid white;
@@ -122,7 +113,6 @@ body {
     padding: 1vw;
     width: 42vw;
 }
-
 .big {
     text-align: left;
     margin: 0;
@@ -131,7 +121,6 @@ body {
     font-size: 3.5vw;
     transform: skewX(-30deg);
 }
-
 .intro {
     transform: skewX(-30deg);
     font-family: 'Secular One', sans-serif;
@@ -140,12 +129,10 @@ body {
     text-align: right;
     margin-right: 1vw;
 }
-
 .intro span {
     text-decoration: underline;
     font-family: 'Secular One', sans-serif;
 }
-
 .about {
     transform: skewX(-30deg);
     color: rgb(178, 175, 175);
@@ -155,7 +142,6 @@ body {
     margin-right: 4vw;
 
 }
-
 .box2 {
     border: 0.5vw solid white;
     border-top: none;
@@ -165,7 +151,6 @@ body {
     position: relative;
     bottom: 2vw;
 }
-
 .like {
     line-height: 2.5vw;
     text-decoration: underline;
@@ -175,7 +160,6 @@ body {
     color: rgb(177, 174, 174);
     font-size: 1.7vw;
 }
-
 .pen {
     position: absolute;
     width: 30%;
@@ -183,11 +167,6 @@ body {
     top: 0vw;
     transform: skewX(-30deg);
 }
-
-.pen img {
-    width: 100%;
-}
-
 .material-symbols-outlined {
     vertical-align: middle;
     font-variation-settings:
@@ -196,7 +175,6 @@ body {
         'GRAD' 0,
         'opsz' 48
 }
-
 .top-body hr {
     width: 50%;
     height: 1.5px;
@@ -204,7 +182,6 @@ body {
     position: relative;
     bottom: 4vh;
 }
-
 .myimg {
     position: relative;
     left: 40%;
@@ -212,11 +189,9 @@ body {
     display: block;
     border-radius: 1vw;
 }
-
 .top-image {
     width: 60%;
 }
-
 .general {
     border: none;
     border-top: 5px solid white;
@@ -226,14 +201,13 @@ body {
 
 
 
-/* ------------------skills section----------------- */
+                                /* ------------------skills section----------------- */
 .skills {
     display: flex;
     justify-content: space-around;
     width: 60%;
     margin: 1% 0 1% 27%;
 }
-
 .skills-head {
     color: rgb(175, 171, 171);
     font-size: 3vw;
@@ -241,7 +215,6 @@ body {
     font-family: 'Rowdies', cursive;
     margin-bottom: 8vw;
 }
-
 .skills-card {
     width: 22vw;
     height: 22vw;
@@ -251,17 +224,14 @@ body {
     margin: 8vw 0;
     transition: 0.5s;
 }
-
 .skills-card:hover {
     transform: scale(1.1);
 }
-
 .inner-card {
     width: 50%;
     margin: auto;
     position: relative;
 }
-
 .inner-card h1 {
     color: white;
     text-decoration: underline;
@@ -273,7 +243,6 @@ body {
     font-family: 'Abril Fatface', cursive;
     left: -3vw;
 }
-
 .inner-card p {
     color: rgb(164, 162, 162);
     text-align: center;
@@ -283,18 +252,14 @@ body {
     font-size: 2vw;
     width: 15vw;
 }
-
 .card-img {
-    width: 100%;
     position: absolute;
     top: -6vw;
 }
-
 .c-lang p {
     width: 17vw;
     left: -3vw;
 }
-
 .skills-btn {
     border-radius: 1vw;
     display: block;
@@ -307,26 +272,21 @@ body {
     padding: 5% 2%;
     transition: 0.2s;
 }
-
 .skills-btn:hover {
     background-color: rgb(29, 29, 29);
 }
-
 .arrow {
     margin: 0;
     display: inline-block;
 }
-
 .row2 {
     position: relative;
 }
-
 .btn-div {
     position: absolute;
     bottom: 8vw;
     left: 11vw;
 }
-
 .bulb-div {
     position: absolute;
     bottom: 32vw;
@@ -335,33 +295,25 @@ body {
     opacity: 0.8;
     transform: rotate(10deg);
 }
-
 .bulb {
     width: 100%;
     transition: 2s;
 }
-
 .bulb-toggle1 {
     transform: scale(1.2);
 }
-
 .bulb-toggle2 {
     transform: scale(1);
 }
 
 
 
-/* ---------projects section------------ */
+                                            /* ---------projects section------------ */
 .project-section {
     text-align: center;
     position: relative;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* flex-direction: column; */
 }
 .section-title{
-    /* display: inline; */
     color: rgb(146, 145, 145);
     width: 60%;
     margin:2vw auto;
@@ -394,7 +346,7 @@ body {
 .tilt-right{
     transition: 0.5s;
     transform: rotate(-10deg);
-  }
+}
   .scale{
     color: white !important;
     transition: 0.5s;
@@ -427,6 +379,12 @@ body {
     text-decoration: none;
     color: white;
   }
+  .git-icon{
+    transition: 1s;
+  }
+  .git-icon:hover{
+    transform: scale(1.2);
+  }
   .project-img{
     width: 13vw;
     position: absolute;
@@ -435,6 +393,63 @@ body {
     transform: rotate(30deg);
     opacity: 0.5;
   }
-  .project-img img{
-    width: 100%;
-  }
+  
+.about-section{
+    background-color: black;
+    color: white;
+    width: 70%;
+    height: 40vw;
+    margin-left: 20vw;
+    padding: 2vw;
+    border-radius: 5vw;
+    text-align: center;
+    position: relative;
+    box-shadow: 3px 3px 5px white;
+}
+.about-section H1{
+    font-family: 'Rowdies', cursive;
+    font-size: 3vw;
+    transition: 0.8s;
+    margin-bottom: 5vw;
+}
+.abt-heart{
+    position: absolute;
+    top: 5vw;
+    left: 35vw;
+    color: #ed7186;
+    transform: scale(0);
+    transition: 0.8s;
+}
+.about-mid{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-card{
+    padding: 2vw;
+    border-radius: 2vw;
+   transition: 0.4s;
+    width: 35%;
+    /* margin: 0.5vw; */
+}
+.about-card:hover{
+    transform: scale(1.1);
+    border: 0.3vw solid white;
+    /* box-shadow: 3px 3px 2px rgb(188, 186, 186); */
+}
+.about-card p{
+    font-family: 'Fredoka One', cursive;
+    font-size: 2.5vw;
+    color: white;
+    margin: 2vw auto;
+}
+
+.bag{
+    position: absolute;
+    width: 25%;
+    top: 1vw;
+    left: -15vw;
+    transform: rotate(25deg);
+    opacity: 0.5;
+    transition: 0.5s;
+}

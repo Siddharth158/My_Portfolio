@@ -8,7 +8,7 @@ setTimeout(function(){
 },2500)
 
 let a= document.getElementsByClassName("letters")
-
+let project = document.getElementById('projects')
  const t=()=>{
   document.getElementsByClassName("section-title")[0].classList.add("scale")
   let icon = document.getElementById("project-img")
@@ -36,4 +36,24 @@ const t1=()=>{
     
 }
 }
+projects.addEventListener('mouseover', t)
+projects.addEventListener('mouseout', t1)
 
+let about = document.getElementById('about-me')
+let abtsec = document.getElementById('about-sec')
+let heart = document.getElementsByClassName('abt-heart')[0]
+let bag = document.getElementById('bag')
+function add(){
+  about.style.transform="scale(0)"
+  heart.style.transform='scale(5)'
+  bag.style.opacity="0.7"
+  bag.style.scale='1.1'
+}
+function remove(){
+  about.style.transform="scale(1)"
+  heart.style.transform='scale(0)'
+  bag.style.opacity="0.5"
+  bag.style.scale='1' 
+}
+abtsec.addEventListener('mouseover', add)
+abtsec.addEventListener('mouseout', remove)
